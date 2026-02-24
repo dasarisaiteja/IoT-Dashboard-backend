@@ -1,0 +1,10 @@
+# Libraries I need to install for the project
+# Command: pip install -r requirements.txt
+
+fastapi            # To make the API
+uvicorn            # To run the server
+paho-mqtt          # To talk to the sensors
+sqlalchemy         # To use the database
+pymysql            # To connect to MySQL
+cryptography       # Needed for the database to work
+python-dotenv      # For the .env file
